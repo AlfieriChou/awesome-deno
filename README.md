@@ -3,12 +3,18 @@ Running deno app in docker.
 
 ### build
 
-```shell
+```bash
 docker build -t hello-deno .
 ```
 
 ### run
 
-```shell
+```bash
 docker run --name deno-demo -d hello-deno
+```
+
+### test
+
+```bash
+docker run -it --rm -v $(pwd):/deno/test/ hello-deno bash
 ```
