@@ -1,5 +1,10 @@
-# deno-docker
-Running deno app in docker.
+# deno
+
+### install deno
+
+```bash
+python ./install.py
+```
 
 ### build
 
